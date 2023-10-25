@@ -12,3 +12,4 @@ def Story1(debug = False):
     out+= " were out playing " + sport1
     
     return out
+

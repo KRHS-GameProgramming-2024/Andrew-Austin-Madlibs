@@ -49,7 +49,28 @@ def getSport(prompt, debug = False):
     "football", 
     "basketball", 
     "hockey", 
-    "golf"]
+    "golf",
+    "wrestling",
+    "rugby",
+    "horeback",
+    "fencing",
+    "field hockey",
+    "bass fishing",
+    "track",
+    "cross country",
+    "volleyball",
+    "skiing",
+    "snowboard",
+    "ski",
+    "swimming",
+    "gymnastics",
+    "bowling",
+    "baseball"
+    "lacrosse",
+    "tennis",
+    "cricket",
+    "badmiton"]
+    
     
     while not goodInput:
         word = input(prompt)
