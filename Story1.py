@@ -1,4 +1,4 @@
-from Getters import*
+Rfrom Getters import*
 
 def Story1(debug = False):
     if debug: print("Story1 Function")
