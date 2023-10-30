@@ -17,8 +17,8 @@ def Story1(debug = False):
     out += " and he was " + adj1
     out += ". After, we went to the " + place1
     out += " and we went " + activity1
-    out += " While this was going on my friend" + friendName1 
-    out += " noticed a giant" + animal1
+    out += ". While this was going on my friend " + friendName1 
+    out += " noticed a giant " + animal1
 
     
     return out
