@@ -13,9 +13,9 @@ def Story1(debug = False):
     out = "\n"
     out += "One day me and my friend " + friendName1
     out += " were out playing " + sport1
-    out += "and he was " + adj1, ". "
-    out += "After, we went to, " + place1
-    out += "and we" + activity1, ". "
+    out += " and he was " + adj1
+    out += ". After, we went to the " + place1
+    out += " and we went " + activity1
 
     
     return out
