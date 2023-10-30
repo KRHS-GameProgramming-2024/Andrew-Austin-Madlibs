@@ -119,3 +119,17 @@ swearList = ["poop",
 "clit",
 "bastard",
 "whore" ]
+
+def getAdj(prompt, debug = False):
+    if debug: print("getAdj Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+            
+    return word
