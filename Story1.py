@@ -9,10 +9,11 @@ def Story1(debug = False):
     adj1 = getAdj(" Enter a adj:" , debug)
 
     out = "\n"
-    out += "One day me and my friend" + friendName1
+    out += "One day me and my friend " + friendName1
     out += " were out playing " + sport1
-    out += "and he was" + adj1
-    
+    out += "and he was " + adj1, ". "
+    out += "After, we went to, " + place1
+    out += "and we" + activity1, ". "
 
     
     return out
