@@ -133,3 +133,31 @@ def getAdj(prompt, debug = False):
             print ("Don't use language like that")
             
     return word
+
+def getPlace(prompt, debug = False):
+    if debug: print("getPlace Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+            
+    return word
+    
+    def getPlace(prompt, debug = False):
+    if debug: print("getPlace Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+            
+    return word
