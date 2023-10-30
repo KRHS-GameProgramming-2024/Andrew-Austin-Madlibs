@@ -161,3 +161,17 @@ def getActivity(prompt, debug = False):
             print ("Don't use language like that")
             
     return word
+
+def getAnimal(prompt, debug = False):
+    if debug: print("getAnimal Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+            
+    return word
