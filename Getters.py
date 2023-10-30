@@ -148,8 +148,8 @@ def getPlace(prompt, debug = False):
             
     return word
     
-    def getPlace(prompt, debug = False):
-    if debug: print("getPlace Function")
+def getActivity(prompt, debug = False):
+    if debug: print("getActivity Function")
     
     goodInput = False
     
