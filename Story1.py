@@ -9,7 +9,8 @@ def Story1(debug = False):
     adj1 = getAdj(" Enter a adj:" , debug)
     place1 = getPlace(" Enter a place:", debug)
     activity1 =getActivity(" Enter a activity:", debug)
-    animal1 = getAnimal (" Enter a aimal:", debug)
+    animal1 = getAnimal (" Enter a animal:", debug)
+    action1 = getAction ("Enter a action word: ", debug)
 
     out = "\n"
     out += "One day me and my friend " + friendName1
@@ -19,7 +20,7 @@ def Story1(debug = False):
     out += " and we went " + activity1
     out += ". While this was going on my friend " + friendName1 
     out += " noticed a giant " + animal1
-
-    
+    out += " and it " + action1
+    out += " us."
     return out
 
