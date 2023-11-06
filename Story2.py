@@ -4,22 +4,13 @@ def Story2(debug = False):
     if debug: print("Story2 Function")
 
     print("\n")
-    friendName1 = getWord("Enter a game: ", debug)
-    sport1 = getSport("Enter a sport: ", debug)
-    adj1 = getAdj("Enter a adjective:" , debug)
-    place1 = getPlace("Enter a place:", debug)
-    activity1 =getActivity("Enter a activity:", debug)
-    animal1 = getAnimal ("Enter a animal:", debug)
-    action1 = getAction ("Enter a action word: ", debug)
+    object1 = getObject("Enter a object: ", debug)
+    place1 = getPlace("Enter a place: ", debug)
+    crime1 = getCrime("Enter a crime: ", debug)
+    celebrity1 = getCelebrity("enter a celebrity: ", debug)
+    object2 = getObject("Enter a different object: ", debug)
+    sound1 = getSound("Enter a sound: ", debug)
+    animal1 = getAnimal("Enter a animal: ", debug)
+    adjective1 = getAdjective("enter a adjective: ", debug)
 
-    out = "\n"
-    out += "One day me and my friend " + friendName1
-    out += " were out playing " + sport1
-    out += " and he was " + adj1
-    out += ". After, we went to the " + place1
-    out += " and we were " + activity1
-    out += ". While this was going on my friend " + friendName1 
-    out += " noticed a giant " + animal1
-    out += " and it " + action1
-    out += " us."
     return out
