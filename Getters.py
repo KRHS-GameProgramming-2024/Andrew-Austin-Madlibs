@@ -200,3 +200,58 @@ def getAction(prompt, debug = False):
             print ("Don't use language like that")
             
     return word
+
+def getObject(prompt, debug = False):
+    if debug: print("getObject Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+    return word
+
+def getCrime(prompt, debug = False):
+    if debug: print("getCrime Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+
+    return word
+
+def getCelebrity(prompt, debug = False):
+    if debug: print("getCelebrity Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+         
+    return word
+
+def getSound(prompt, debug = False):
+    if debug: print("getSound Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+
+    return word
