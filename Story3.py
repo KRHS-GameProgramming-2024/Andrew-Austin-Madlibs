@@ -5,6 +5,9 @@ def Story3(debug = False):
 
     print("\n")
     
+    
+    
+    
     out += "\n"
     out += "One day me and my friend " + friendName1
     out += " were out playing " + sport1
