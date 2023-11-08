@@ -255,3 +255,31 @@ def getSound(prompt, debug = False):
             print ("Don't use language like that")
 
     return word
+
+def getNaturalDisaster(prompt, debug = False):
+    if debug: print("getNaturalDisaster Function")
+    
+    goodInput = False
+    
+    sports = ["volcano",
+     "hurricane",
+     "tornado",
+     "earthquake",
+     "tsunami", 
+     "sand storm",
+     "avalanche", 
+     "flood",
+     "hail",
+     "wildfire"]
+     
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in sports:
+            goodInput = False
+            print("Sorry, I don't know that one")
+     
+    return word
