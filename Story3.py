@@ -4,16 +4,7 @@ def Story3(debug = False):
     if debug: print("Story3 Function")
 
     print("\n")
-    friendName1 = getWord("Enter a name: ", debug)
-    sport1 = getSport("Enter a sport: ", debug)
-    adj1 = getAdj("Enter a adjective:" , debug)
-    place1 = getPlace("Enter a place:", debug)
-    activity1 =getActivity("Enter a activity:", debug)
-    animal1 = getAnimal ("Enter a animal:", debug)
-    action1 = getAction ("Enter a action word: ", debug)
-
-    out = "\n"
-    
+<<<<<<< HEAD
     out += " While I was on vacation in " + Country1
     out += " Me and my friend " + friendName1
     out += " went deep sea fishing and we caught a" + fish1
@@ -23,4 +14,19 @@ def Story3(debug = False):
     out += ". So we decided " + verb1
     out += " was the best thing after being so tired, it ended up " + naturaldisaster1
     out += ". This day kept gettng worse and worse so we called it a night amd went to bed at" Time1
+=======
+    
+    
+    
+    out += "\n"
+    out += "One day me and my friend " + friendName1
+    out += " were out playing " + sport1
+    out += " and he was " + adj1
+    out += ". After, we went to the " + place1
+    out += " and we were " + activity1
+    out += ". While this was going on my friend " + friendName1 
+    out += " noticed a giant " + animal1
+    out += " and it " + action1
+    out += " us."
+>>>>>>> origin/master
     return out
