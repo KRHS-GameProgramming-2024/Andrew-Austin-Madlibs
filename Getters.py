@@ -130,138 +130,14 @@ swearList = ["poop",
 "clit",
 "bastard",
 "whore" ]
-
-def getAdj(prompt, debug = False):
-    if debug: print("getAdj Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-            
-    return word
-
-def getPlace(prompt, debug = False):
-    if debug: print("getPlace Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-            
-    return word
-    
-def getActivity(prompt, debug = False):
-    if debug: print("getActivity Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-            
-    return word
-
-def getAnimal(prompt, debug = False):
-    if debug: print("getAnimal Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-            
-    return word
-
-def getAction(prompt, debug = False):
-    if debug: print("getAction Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-            
-    return word
-
-def getObject(prompt, debug = False):
-    if debug: print("getObject Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-    return word
-
-def getCrime(prompt, debug = False):
-    if debug: print("getCrime Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-
-    return word
-
-def getCelebrity(prompt, debug = False):
-    if debug: print("getCelebrity Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-         
-    return word
-
-def getSound(prompt, debug = False):
-    if debug: print("getSound Function")
-    
-    goodInput = False
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-
-    return word
+ 
 
 def getNaturalDisaster(prompt, debug = False):
     if debug: print("getNaturalDisaster Function")
     
     goodInput = False
     
-    sports = ["volcano",
+    NaturalDisasters = ["volcano",
      "hurricane",
      "tornado",
      "earthquake",

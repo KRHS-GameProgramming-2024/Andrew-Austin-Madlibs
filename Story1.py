@@ -6,11 +6,11 @@ def Story1(debug = False):
     print("\n")
     friendName1 = getWord("Enter a name: ", debug)
     sport1 = getSport("Enter a sport: ", debug)
-    adj1 = getAdj("Enter a adjective:" , debug)
-    place1 = getPlace("Enter a place:", debug)
-    activity1 =getActivity("Enter a activity:", debug)
-    animal1 = getAnimal ("Enter a animal:", debug)
-    action1 = getAction ("Enter a action word: ", debug)
+    adj1 = getWord("Enter a adjective:" , debug)
+    place1 = getWord("Enter a place:", debug)
+    activity1 =getWord("Enter a activity:", debug)
+    animal1 = getWord ("Enter a animal:", debug)
+    action1 = getWord ("Enter a action word: ", debug)
 
     out = "\n"
     out += "One day me and my friend " + friendName1

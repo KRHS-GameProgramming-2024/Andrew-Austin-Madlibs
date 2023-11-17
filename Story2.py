@@ -4,14 +4,14 @@ def Story2(debug = False):
     if debug: print("Story2 Function")
 
     print("\n")
-    object1 = getObject("Enter a object: ", debug)
-    place1 = getPlace("Enter a place: ", debug)
-    crime1 = getCrime("Enter a crime: ", debug)
-    celebrity1 = getCelebrity("Enter a celebrity: ", debug)
-    object2 = getObject("Enter a different object: ", debug)
-    sound1 = getSound("Enter a sound: ", debug)
-    animal1 = getAnimal ("Enter a animal: ", debug)
-    adj1 = getAdj ("Enter a adjective: ", debug)
+    object1 = getWord("Enter a object: ", debug)
+    place1 = getWord("Enter a place: ", debug)
+    crime1 = getWord("Enter a crime: ", debug)
+    celebrity1 = getWord("Enter a celebrity: ", debug)
+    object2 = getWord("Enter a different object: ", debug)
+    sound1 = getWord("Enter a sound: ", debug)
+    animal1 = getWord ("Enter a animal: ", debug)
+    adj1 = getWord ("Enter a adjective: ", debug)
 
     out = "\n"
     out += "I found a " + object1
