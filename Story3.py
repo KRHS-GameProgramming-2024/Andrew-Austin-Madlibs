@@ -22,7 +22,7 @@ def Story3(debug = False):
     out += ". We were shocked and I ended up getting sick so we went to the " + hotelName1
     out += ", while I was asleep my other friend " + friendName2
     out += " came over. We decided " + adj1
-    out += " was the best thing after being so tired, it ended up " + naturalDisaster1
+    out += " was the best thing after being so tired, it ended up being a " + naturalDisaster1
     out += ". This day kept gettng worse and worse so we called it a night amd went to bed at " +time1
 
     
