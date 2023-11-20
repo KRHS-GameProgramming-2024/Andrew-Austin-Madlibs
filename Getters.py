@@ -57,7 +57,7 @@ def getSport(prompt, debug = False):
     
     goodInput = False
     
-    sports = ["soccer", 
+    sportList = ["soccer", 
     "football", 
     "basketball", 
     "hockey", 
@@ -77,7 +77,7 @@ def getSport(prompt, debug = False):
     "swimming",
     "gymnastics",
     "bowling",
-    "baseball"
+    "baseball",
     "lacrosse",
     "tennis",
     "cricket",
@@ -90,11 +90,13 @@ def getSport(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
-        elif word.lower() not in sports:
+        elif word.lower() not in sportList:
             goodInput = False
             print("Sorry, I don't know that one")
-            
-            
+        else: input("?")
+        goodInput = True
+        input(sportList)
+
     return word
 
 def isSwear(word, debug = False):
@@ -155,8 +157,10 @@ def getNaturalDisaster(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
-        elif word.lower() not in sports:
+        elif word.lower() not in NaturalDisasters:
             goodInput = False
             print("Sorry, I don't know that one")
-     
+        else: input("?")
+        goodInput = True
+        input(NaturalDisasters)
     return word
