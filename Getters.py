@@ -54,7 +54,7 @@ def getWord(prompt, debug = False):
     
             
     return word
-
+  
 
 def getSport(prompt, debug = False):
     if debug: print("getSport Function")
