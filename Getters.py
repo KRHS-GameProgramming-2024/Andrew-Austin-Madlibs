@@ -48,9 +48,10 @@ def getWord(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
-        else: input("?")
-        goodInput = True
-        print ("There is no options for this. ") 
+        if word == ("?"):
+            goodInput = False
+            print("There is no options for this") 
+    
             
     return word
 
@@ -96,9 +97,9 @@ def getSport(prompt, debug = False):
         elif word.lower() not in sportList:
             goodInput = False
             print("Sorry, I don't know that one")
-        else: input("?")
-        goodInput = True
-        input(sportList)
+        if word == ("?"):
+            goodInput = False
+            print(sportList) 
 
     return word
 
@@ -163,7 +164,7 @@ def getNaturalDisaster(prompt, debug = False):
         elif word.lower() not in NaturalDisasters:
             goodInput = False
             print("Sorry, I don't know that one")
-        else: input("?")
-        goodInput = True
-        input(NaturalDisasters)
+        if word == ("?"):
+            goodInput = False
+            print(NaturalDisasters) 
     return word
