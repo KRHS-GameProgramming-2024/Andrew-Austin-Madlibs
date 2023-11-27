@@ -48,6 +48,9 @@ def getWord(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
+        else: input("?")
+        goodInput = True
+        print ("There is no options for this. ") 
             
     return word
 
